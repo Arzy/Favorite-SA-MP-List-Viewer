@@ -1,16 +1,16 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
-// Déclaration des defines
+// Dï¿½claration des defines
 #define PATH                    "./USERDATA.DAT"
 #define MAX_LENGTH_HOSTNAME     512
 #define MAX_LENGTH_SERV_NAME    50
 
-// Déclaration des types utilisés
+// Dï¿½claration des types utilisï¿½s
 typedef struct {
-    char fileIdentificator[4]; // Normally "SAMP"
-    unsigned int fileVersion; // Normally 0x00000001
-    unsigned int serversCount; // Depends on your number of servers in your fav list.
+    char fileIdentificator[4]; // Normalement "SAMP"
+    unsigned int fileVersion; // Normalement 0x00000001
+    unsigned int serversCount; // Nombre de serveurs dans la liste.
 } USERDATA_HEADER;
 
 typedef struct {
@@ -23,7 +23,7 @@ typedef struct {
 
 } USERDATA_SERVER;
 
-// Déclaration des Prototypes
+// Dï¿½claration des Prototypes
 USERDATA_SERVER Extraction_InfoServ(FILE *);
 USERDATA_HEADER Extraction_InfoHeader(FILE *);
 void AffichageServer(USERDATA_SERVER);
