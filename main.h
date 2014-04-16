@@ -2,7 +2,7 @@
 #define MAIN_H_INCLUDED
 
 // D�claration des defines
-#define PATH                    "./USERDATA.DAT"
+#define PATH                    "./USERDATA.DAT" // A modifier selon la position du fichier
 #define MAX_LENGTH_HOSTNAME     512
 #define MAX_LENGTH_SERV_NAME    50
 
