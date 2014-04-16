@@ -7,7 +7,7 @@ int main (void) {
     USERDATA_HEADER header;
     USERDATA_SERVER server, server2;
 
-    fic = fopen(PATH, "rb");
+    fic = fopen(PATH, "rb"); // Ouverture de USERDAT.DAT
 
     if (fic == NULL) // Fichier non ouvert
         return 1;
