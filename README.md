@@ -11,4 +11,6 @@ USERDAT.DAT contains the list of your favorite SA-MP servers. Servers that you h
 
 I wanted to be able to see that list since I will use it in my main project : Dancing Plastic.
 
+I used this as documentation : http://sasuke78200.free.fr/samp/doc/userdata.html
+
 If you have any suggestion, don't hesitate to get in touch with me.
